@@ -4,14 +4,13 @@
  `npm start` Run the command in the terminal to start the server
 
 ## API
+Express is used to create routes
 
 ### getAllProducts
-Get all the products and their article inventory
+`/getAllProducts` - Get all the products and their article inventory
 
 ### sellProduct
-Express is used to create routes
-`/getAllProducts` - Read all the products from products.json
-`/sellProduct` - Remove the product and update the article inventory accordingly 
+ `/sellProduct` - Remove the product and update the article inventory accordingly 
 
 
 ### Improvements
